@@ -1,0 +1,14 @@
+[
+    {
+        "type": "ip",
+        "value": "185.220.101.45"
+    },
+    {
+        "type": "domain",
+        "value": "login-secure-update.com"
+    },
+    {
+        "type": "hash",
+        "value": "5f4dcc3b5aa765d61d8327deb882cf99"
+    }
+]

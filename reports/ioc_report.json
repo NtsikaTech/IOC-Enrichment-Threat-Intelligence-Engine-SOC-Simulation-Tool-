@@ -1,0 +1,42 @@
+{
+    "generated_at": "2026-05-29 20:53:27",
+    "total_iocs": 3,
+    "results": [
+        {
+            "type": "ip",
+            "value": "185.220.101.45",
+            "risk": 90,
+            "category": "Known Malicious IP",
+            "tag": "Tor Exit Node",
+            "mitre_technique": "T1090",
+            "mitre_tactic": "Command and Control",
+            "status": "KNOWN THREAT",
+            "classification": "CRITICAL",
+            "final_risk": 95
+        },
+        {
+            "type": "domain",
+            "value": "login-secure-update.com",
+            "risk": 85,
+            "category": "Phishing Domain",
+            "tag": "Credential Harvesting",
+            "mitre_technique": "T1566",
+            "mitre_tactic": "Phishing",
+            "status": "KNOWN THREAT",
+            "classification": "CRITICAL",
+            "final_risk": 95
+        },
+        {
+            "type": "hash",
+            "value": "5f4dcc3b5aa765d61d8327deb882cf99",
+            "risk": 70,
+            "category": "Suspicious Hash",
+            "tag": "Common Malware Signature",
+            "mitre_technique": "T1003",
+            "mitre_tactic": "Credential Access",
+            "status": "KNOWN THREAT",
+            "classification": "HIGH",
+            "final_risk": 85
+        }
+    ]
+}
